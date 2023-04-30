@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E9EDC9;
+  }
+  
+/* main container */
+#container{
+    width: 60vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #CCD5AE;
+}
+
+.saludo_inicial, #btn_see_form {
+    margin: 0 8px;
+    padding: 2px;
+}
+
+.saludo_inicial{
+    text-align: center;
+}
+
+/* form add */
+#form_add {
+    border: 1px solid black;
+    margin: 8px;
+}
+
+div.row {
+    display: flex;
+    justify-content: center;
+}
+
+.row>label, input {
+    width: 10vw;
+    margin: 5px;
+}
+
+#form_add > #btn_add_word{
+    margin: 5px;
+    padding: 2px;
+}
+
+
+#miDiv{
+        display: none;      
+}

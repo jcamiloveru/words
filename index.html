@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Inicio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+    <div id="container">
+        <br>
+        <h2 class="saludo_inicial">Welcome!</h2>
+        <br>
+        <button id="btn_see_form" onclick="seeFormAdd()">Add New Word</button>
+        <div id="miDiv">lo metistes como todo un campeón</div>
+        <form method="POST" action="insertar.php" id="form_add">
+            <div class="row">
+                <label for="words_english">Word in English</label>
+                <input type="text" id="words_english" name="words_english">
+            </div>
+            <div class="row">
+                <label for="words_spanish">Palabra en Español</label>
+                <input type="text" id="words_spanish" name="words_spanish">
+            </div>
+            <input type="submit" value="Add to DB" id="btn_add_word">
+        </form>
+        <iframe src="viw list.php"></iframe>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
