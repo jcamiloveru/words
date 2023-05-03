@@ -23,6 +23,6 @@ if ($result->num_rows > 0) {
     echo "No se encontraron resultados.";
 }
 
-// Cierra la conexión a la base de datos
+// Cerrar la conexion
 $conn->close();
 ?>
